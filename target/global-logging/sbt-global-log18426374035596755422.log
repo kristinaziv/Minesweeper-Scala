@@ -1,0 +1,16 @@
+[debug] > Exec(run, None, None)
+[debug] Evaluating tasks: Compile / run
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 4 Scala sources to D:\minesweeper\target\scala-2.13\classes ...
+[info] done compiling
+[error] java.lang.RuntimeException: No toolkit found
+[error] 	at com.sun.javafx.tk.Toolkit.getToolkit(Toolkit.java:275)
+[error] 	at com.sun.javafx.application.PlatformImpl.startup(PlatformImpl.java:290)
+[error] 	at com.sun.javafx.application.PlatformImpl.startup(PlatformImpl.java:162)
+[error] 	at com.sun.javafx.application.LauncherImpl.startToolkit(LauncherImpl.java:651)
+[error] 	at com.sun.javafx.application.LauncherImpl.launchApplication1(LauncherImpl.java:671)
+[error] 	at com.sun.javafx.application.LauncherImpl.lambda$launchApplication$2(LauncherImpl.java:195)
+[error] 	at java.base/java.lang.Thread.run(Thread.java:833)
+[error] (Compile / run) No toolkit found
+[error] Total time: 4 s, completed Jun 15, 2024, 9:47:46 PM
+[debug] > Exec(idea-shell, None, None)
